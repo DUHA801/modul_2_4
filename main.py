@@ -8,10 +8,7 @@ for i in range(len(numbers)):
             is_prime = False
             primes.append(i)
             break
-        elif i == 7:
-            pass
-            j += 19
     else:
             not_primes.append(i)
-print(primes)
-print(not_primes)
+print('primes:', primes)
+print('not_primes:', not_primes)
